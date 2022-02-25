@@ -10,9 +10,9 @@ class WeatherApi {
   final String _param2 = '/forecast';
   final String _query = '?q=';
   final String _appid = '&appid=';
-  final String _apiKey = 'd1fd3ca6836418df2c335353aa1b0a64';
+  final String _apiKey = '359457ea47fe900b0611161599d5eb8b';
   final String _units = '&units=metric';
-  final String _lang = '&lang=ru';
+  final String _lang = '&lang=en';
 
   String getImgUrl(String icon) => '$_imgUrl$icon.png';
 
